@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nBaar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:rgb(44, 206, 171);
+    border:solid 2px rgb(44, 206, 171);
+    height:70px;
+    overflow: hidden;
+}
+    
+.space{
+    top: 0;
+    background-color:rgb(44, 206, 171);
+    border:solid 2px rgb(44, 206, 171);
+    height:20px;
+        
+    
+    }
+
+.logo{
+    width: 150px;
+    float: left;
+    margin-top: 2%;
+
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.menu{
+    float: right;
+}
+
+.menu li{
+    float: left;
+    width: 120px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    list-style:none;
+    
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+
+.table{
+    
+    width: 70%;
+    margin-left: 18%;
+    
+}
+
+.screenshot img{
+    width:70%;
+    height: 50%;
+    margin-top: 30px;
+}
+.screenshot{
+    width: 40%;
+}
+.text div{
+    font-size: 40px;
+    font-family:monospace
+}
+.text{
+    width: 37%;
+}
+.text p{
+    font-size: 15.8px;
+    font-family:monospace
+}
+.list{
+    text-align: start;
+}
+.list li{
+    list-style: none;
+    
+}
+.list li a{
+    text-decoration: none;
+    color: rgb(44, 206, 171);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-align: center;
+}
+.list li a img {
+    width: 18px;
+   
+}
+.image td img{
+    width: 100%;
+
+}
+.img{
+    width: 90%;
+    
+}
+.button{
+    border: 2px solid rgb(44, 206, 171);
+    border-radius: 30px;
+    padding:15px;
+    background-color: white;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.button a{
+    color:rgb(44, 206, 171);
+    text-decoration: none;
+    font-size: 18px;
+    
+
+}
+
+.footer{
+     width: 100%;
+     background-color: rgb(2, 15, 32);
+     height: 20%;
+
+}
+.footer_table{
+   
+    width: 30%;
+    margin-left:35%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.footer_table tr td{
+    color: white;
+    font-size: 13px;
+    
+}
+
+.head{
+    font-size: 13px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.element td:hover{
+    text-decoration: underline;
+}
+
